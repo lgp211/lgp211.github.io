@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="sohu.css"/>
+</head>
+
+<body>
+
+<!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+	window.fbAsyncInit = function() {
+	  FB.init({
+		xfbml            : true,
+		version          : 'v6.0'
+	  });
+	};
+
+	(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+	fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Your customer chat code -->
+  <div class="fb-customerchat"
+	attribution=setup_tool
+	page_id="108337877406157"
+	theme_color="#44bec7"
+	logged_in_greeting="Hi! This is GP. How can we help you?"
+	logged_out_greeting="Hi! This is GP. How can we help you?">
+  </div>
+
+<!--top part-->
+<div class="top">
+    <span class="login">登录表单</span>
+    <span class="setindex">设置首页面</span>
+    <span class="myhref">超链接</span>
+</div>
+
+<!--logo part-->
+<div class="logo">
+<img src="sohu_logo.png"/>
+</div>
+
+<!--Navigation-->
+<div class="navi">
+</div>
+
+<!--All Ads-->
+<div class="adAll">
+    <div class="adStu">
+    </div>
+    <div class="adSport">
+    </div>
+    <div class="adFdc">
+    </div>
+    <div class="adImg">
+    <img src="adImg.png"/>
+    </div>
+</div>
+</body>
+</html>
