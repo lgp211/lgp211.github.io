@@ -1,0 +1,106 @@
+body{
+    margin: 0 auto;
+    /*border: 1px solid green;*/
+    width: 950px;
+    height: 800px;
+}
+
+.top{
+    width:950px;
+    /*background: silver;*/
+    height:24px;
+}
+
+.login{
+    width:350px;
+    height:22px;
+    background:pink;
+    /*display:block;*/
+    float:left;
+}
+
+.setindex{
+    width:85px;
+    height:20px;
+    background:green;
+    float:left;
+    margin-left: 100px;
+}
+
+.myhref{
+    float:right;
+    margin-right:5px;
+    margin-top:3px;
+}
+
+/*--logo part*/
+.logo{
+    width:138px;
+    height:56px;
+    background:silver;
+    float:left;
+    margin-top:3px;
+}
+.logo img{
+    width:138px;
+    height:56px;
+}
+
+/*Navigation*/
+.navi{
+    width:800px;
+    height:56px;
+    background:#7BF773;
+    float:right;
+    margin-top:3px;
+    margin-left:10px;
+}
+
+/*All Ads*/
+.adAll{
+    width: 950px;
+    height: 211px;
+    /*background:silver;*/
+    border: 1px solid silver;
+    margin-top: 3px;
+    float:left;
+}
+
+/*Recruiment Ads*/
+.adStu{
+    width:126px;
+    height:195px;
+    background: #7BF773;
+    float:left;
+    margin: 5px 0 0 5px;
+}
+
+.adSport{
+    width:451px;
+    height:195px;
+    background: #7BF773;
+    float:left;
+    margin: 5px 0 0 15px;
+}
+
+.adFdc{
+    width:151px;
+    height:195px;
+    background: #7BF773;
+    float:left;
+    margin: 5px 0 0 15px;
+}
+
+.adImg{
+    width:180px;
+    height:211px;
+    background: pink;
+    float:right;
+    text-align:center;
+} 
+
+.adImg img{
+    width:180px;
+    height:211px;
+    margin-top: 0px;
+}
